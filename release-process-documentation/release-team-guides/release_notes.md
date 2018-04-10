@@ -1,6 +1,6 @@
 This is a first pass at documenting the release notes process.
 
-# Release Notes Lead Playbook
+# Release Notes Playbook
 
 Consistency is important.  Timing is important.  It is far too easy to leave all the release notes work until after the release candidate has been cut, forcing all release notes work to happen during the last week of the release.
 
@@ -23,6 +23,8 @@ The release notes team functionality consists of three separate components.
 * First, there is the gathering of the information, which is ideally performed with the [relnotes tool](https://github.com/kubernetes/release/tree/master/toolbox/relnotes).
 * Second is the editing of the gathered information.  This includes first pass qualification of whether a particular note is actually user-facing or not, as well as final grammatical editing and topical sorting.
 * Third is the interpersonal aspect of tracking down contributors whose notes need additional clarification or information.  This is performed by pestering individuals by slack, email, at SIG meetings, or any other way you can get in contact with them.
+
+Distribution of these subroles should be agreed upon between the Release Notes Lead and any Shadows available.
 
 ## Timeframe
 
